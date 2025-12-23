@@ -1,0 +1,53 @@
+{
+  "name": "veria",
+  "version": "0.1.0",
+  "description": "Official JavaScript/TypeScript SDK for Veria Compliance API - wallet screening, sanctions checks, KYC/AML",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "prepublishOnly": "npm run build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "veria",
+    "compliance",
+    "kyc",
+    "aml",
+    "sanctions",
+    "ofac",
+    "wallet-screening",
+    "web3",
+    "ethereum",
+    "solana",
+    "defi",
+    "mica"
+  ],
+  "author": "Veria Protocol <support@veria.cc>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veria-Protocol/veria-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Veria-Protocol/veria-js/issues"
+  },
+  "homepage": "https://veria.cc",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}
