@@ -1,5 +1,5 @@
 {
-  "name": "veria",
+  "name": "@veria-protocol/sdk",
   "version": "0.1.0",
   "description": "Official JavaScript/TypeScript SDK for Veria Compliance API - wallet screening, sanctions checks, KYC/AML",
   "main": "dist/index.js",
@@ -45,6 +45,9 @@
     "url": "https://github.com/Veria-Protocol/veria-js/issues"
   },
   "homepage": "https://veria.cc",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.3.0",
