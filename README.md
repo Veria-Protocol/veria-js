@@ -5,17 +5,17 @@ Official SDK for the [Veria Compliance API](https://veria.cc) - screen wallet ad
 ## Installation
 
 ```bash
-npm install veria
+npm install @veria-protocol/sdk
 # or
-yarn add veria
+yarn add @veria-protocol/sdk
 # or
-pnpm add veria
+pnpm add @veria-protocol/sdk
 ```
 
 ## Quick Start
 
 ```typescript
-import { VeriaClient } from 'veria';
+import { VeriaClient } from '@veria-protocol/sdk';
 
 const client = new VeriaClient({
   apiKey: 'veria_live_xxxxxxxxxxxx' // Get yours at https://protocol.veria.cc
@@ -108,7 +108,7 @@ Returns `true` if:
 ## Error Handling
 
 ```typescript
-import { VeriaClient, VeriaError } from 'veria';
+import { VeriaClient, VeriaError } from '@veria-protocol/sdk';
 
 try {
   const result = await client.screen(address);
@@ -137,7 +137,7 @@ try {
 
 ```typescript
 import { useAccount } from 'wagmi';
-import { VeriaClient } from 'veria';
+import { VeriaClient } from '@veria-protocol/sdk';
 
 const client = new VeriaClient({ apiKey: process.env.VERIA_API_KEY });
 
@@ -161,7 +161,7 @@ function useComplianceCheck() {
 
 ```typescript
 import { ethers } from 'ethers';
-import { VeriaClient } from 'veria';
+import { VeriaClient } from '@veria-protocol/sdk';
 
 const client = new VeriaClient({ apiKey: process.env.VERIA_API_KEY });
 
