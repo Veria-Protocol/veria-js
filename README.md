@@ -1,5 +1,9 @@
 # Veria SDK for JavaScript/TypeScript
 
+[![npm version](https://img.shields.io/npm/v/@veria-protocol/sdk.svg)](https://www.npmjs.com/package/@veria-protocol/sdk)
+[![npm downloads](https://img.shields.io/npm/dm/@veria-protocol/sdk.svg)](https://www.npmjs.com/package/@veria-protocol/sdk)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Official SDK for the [Veria Compliance API](https://veria.cc) - screen wallet addresses for sanctions, PEP, and AML compliance.
 
 ## Installation
@@ -18,7 +22,7 @@ pnpm add @veria-protocol/sdk
 import { VeriaClient } from '@veria-protocol/sdk';
 
 const client = new VeriaClient({
-  apiKey: 'veria_live_xxxxxxxxxxxx' // Get yours at https://protocol.veria.cc
+  apiKey: 'veria_live_xxxxxxxxxxxx' // Get yours at https://veria.cc/choose-plan
 });
 
 // Screen an address
@@ -178,11 +182,15 @@ async function safeTransfer(to: string, amount: bigint) {
 }
 ```
 
+## Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
 ## Resources
 
-- [Documentation](https://docs.veria.cc)
-- [API Reference](https://docs.veria.cc/api)
-- [Get API Key](https://protocol.veria.cc)
+- [Documentation](https://veria.cc/protocol/docs)
+- [API Reference](https://veria.cc/protocol/docs/reference)
+- [Get API Key](https://veria.cc/choose-plan)
 - [GitHub](https://github.com/Veria-Protocol/veria-js)
 
 ## License
