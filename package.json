@@ -35,7 +35,7 @@
     "defi",
     "mica"
   ],
-  "author": "Veria Protocol <support@veria.cc>",
+  "author": "Veria Protocol <support@veria.us>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -44,7 +44,7 @@
   "bugs": {
     "url": "https://github.com/Veria-Protocol/veria-js/issues"
   },
-  "homepage": "https://veria.cc",
+  "homepage": "https://veria.us",
   "publishConfig": {
     "access": "public"
   },

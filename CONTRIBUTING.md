@@ -50,7 +50,7 @@ When reporting issues, please include:
 ## Questions?
 
 - Open a GitHub issue for bugs or feature requests
-- Email support@veria.cc for general questions
+- Email support@veria.us for general questions
 
 ## License
 

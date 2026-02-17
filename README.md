@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/@veria-protocol/sdk.svg)](https://www.npmjs.com/package/@veria-protocol/sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official SDK for the [Veria Compliance API](https://veria.cc) - screen wallet addresses for sanctions, PEP, and AML compliance.
+Official SDK for the [Veria Compliance API](https://veria.us) - screen wallet addresses for sanctions, PEP, and AML compliance.
 
 ## Installation
 
@@ -22,7 +22,7 @@ pnpm add @veria-protocol/sdk
 import { VeriaClient } from '@veria-protocol/sdk';
 
 const client = new VeriaClient({
-  apiKey: 'veria_live_xxxxxxxxxxxx' // Get yours at https://veria.cc/choose-plan
+  apiKey: 'veria_live_xxxxxxxxxxxx' // Get yours at https://veria.us/choose-plan
 });
 
 // Screen an address
@@ -53,7 +53,7 @@ Create a new Veria client.
 ```typescript
 const client = new VeriaClient({
   apiKey: 'veria_live_xxx',     // Required: Your API key
-  baseUrl: 'https://api.veria.cc', // Optional: API base URL
+  baseUrl: 'https://api.veria.us', // Optional: API base URL
   timeout: 30000,                  // Optional: Request timeout in ms
 });
 ```
@@ -188,9 +188,9 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ## Resources
 
-- [Documentation](https://veria.cc/protocol/docs)
-- [API Reference](https://veria.cc/protocol/docs/reference)
-- [Get API Key](https://veria.cc/choose-plan)
+- [Documentation](https://veria.us/protocol/docs)
+- [API Reference](https://veria.us/protocol/docs/reference)
+- [Get API Key](https://veria.us/choose-plan)
 - [GitHub](https://github.com/Veria-Protocol/veria-js)
 
 ## License

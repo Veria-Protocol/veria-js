@@ -15,9 +15,9 @@
  */
 
 export interface VeriaConfig {
-  /** Your Veria API key (get one at https://protocol.veria.cc) */
+  /** Your Veria API key (get one at https://protocol.veria.us) */
   apiKey: string;
-  /** Base URL for the API (default: https://api.veria.cc) */
+  /** Base URL for the API (default: https://api.veria.us) */
   baseUrl?: string;
   /** Request timeout in milliseconds (default: 30000) */
   timeout?: number;
@@ -76,7 +76,7 @@ export class VeriaClient {
       throw new VeriaError('API key is required', 'MISSING_API_KEY');
     }
     this.apiKey = config.apiKey;
-    this.baseUrl = config.baseUrl ?? 'https://api.veria.cc';
+    this.baseUrl = config.baseUrl ?? 'https://api.veria.us';
     this.timeout = config.timeout ?? 30000;
   }
 
